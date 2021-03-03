@@ -1,0 +1,15 @@
+GDAL INSALL==>
+1)conda create --name myenv2
+2)conda activate myenv2
+3)conda install -c conda-forge gdal
+
+CHECK ==>
+1)python
+2)from osgeo import gdal
+
+GDAL INSALL FOR SPYDER==>
+1)conda activate myenv2
+2)conda install -c conda-forge spyder
+
+CHECK ==>
+1)spyder
